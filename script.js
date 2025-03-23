@@ -12,7 +12,7 @@ document.getElementById('futureForm').addEventListener('submit', async function(
   
     // Call DeepSeek API
     try {
-      const response = await fetch('https://api.deepseek.com/v1/analyze', {
+      const response = await fetch('https://corsproxy.io/https://api.deepseek.com/v1/analyze', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
